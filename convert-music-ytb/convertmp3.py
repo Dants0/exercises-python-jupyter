@@ -4,7 +4,7 @@ import re
 import os
 
 link = input('Link to your mp3 url youtube: ')
-path = 'C:\\Users\\User\\Desktop\\Musicas_Test'
+path = input('Diretorio que quer salvar: ')
 
 yt = YouTube(link)
 
